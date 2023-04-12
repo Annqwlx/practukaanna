@@ -1,0 +1,424 @@
+/* .header{
+    border: 3px solid orange;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    
+    
+
+}
+.logo{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+
+}
+.menu{
+    display: inline-block;
+    height: 50px;
+    width: 480px;
+    position: absolute;
+    right: 80px;
+
+
+    
+
+}
+.menu div{
+    position: absolute;
+    border-radius: 30px;
+    background-color: aqua;
+    height: 80px;
+    width: 150px;
+    margin-left: 30px;
+    
+
+
+}
+.menu .menuitem1{
+
+    left: 100px;
+    padding-top: 40px;
+    
+}
+.menu .menuitem2{
+    left: 300px;
+    padding-top: 40px;
+
+}
+
+.menu .menuitem3{
+    left: 500px;
+    padding-top: 40px;
+}
+.menu .menuitem4{
+    left:700px;
+    padding-top: 40px;
+}
+
+ */
+
+/* 
+.content{
+    background-color: antiquewhite;
+    height: 1000px;
+    
+}
+.img1, .img2, .img3{
+    height: 400px;
+    width: 550px;
+    margin-right: 50px;
+    box-shadow: 0px 4px 4px rgb(75, 80, 79)
+
+
+} */
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+html, body{
+
+    height: 100px;
+    width: 100%;
+
+}
+body{
+    margin: 0px;
+    background-color: aliceblue;
+
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    display: inline-block;
+    background-color: coral;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: absolute;
+    font-weight: 100;
+    font-size: 23px;
+}
+.menu{
+    
+    position: absolute;
+    
+    right: 30px;
+    top: 23px;
+
+}
+.menu div{
+    display: inline-block;
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+.h11, .p22{
+    margin-left: 50px;
+
+}
+.three-picktures-in-row img{
+    height: 250%px;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+    box-shadow: 4px 3px 10px;
+}
+.text p{
+    display: inline-block;
+    margin-left: 100px;
+}
+.text .p2{
+    margin-left: 220px;
+}
+
+.text .p3{
+    margin-left: 60px;
+}
+
+/* ----------------------------------------- */
+.greenblok{
+    position: relative;
+    background-color: rgba(224, 255, 193, 1);
+    height: 700px;
+    width: 100%;
+    padding-top: 0.1px;
+    box-shadow: 0px 1px 4px;
+}
+.greenblok p{
+    position: absolute;
+    width: 637px;
+    height: 145px;
+    left: 109px;
+    top: 168px;
+}
+
+ .greenblok h2{
+    
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 170px;
+    font-weight: 600;
+    font-size: 40px;
+    top: -50px;
+}
+.greenblok img{
+    height: 560px;
+    width: 650px;
+    margin-left: 1100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+} 
+
+/* -------------------------------------- */
+.greyblok{
+    position: relative;
+    background-color: rgba(217, 217, 217, 1);
+    height: 700px;
+    width: 100%;
+    padding-top: 0.1px;
+    box-shadow: 0px 1px 4px;
+}
+.greyblok h2{
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: 140px;
+    font-weight: 600;
+    font-size: 40px;
+    top: -50px;
+}
+.greyblok p{
+    position: absolute;
+    width: 637px;
+    height: 145px;
+    left: 1180px;
+    top: 151px;
+
+}
+.greyblok img{
+    height: 560px;
+    width: 650px;
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+}
+.orangblok{
+    position: relative;
+    background-color: rgba(255, 219, 193, 1);
+    height: 700px;
+    width: 100%;
+    padding-top: 0.1px;
+    box-shadow: 0px 1px 4px;
+}
+.orangblok h2{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 170px;
+    font-weight: 600;
+    font-size: 40px;
+    top: -50px;
+}
+.orangblok p{
+    position: absolute;
+    width: 637px;
+    height: 145px;
+    left: 109px;
+    top: 168px;
+}
+.orangblok img{
+    height: 560px;
+    width: 650px;
+    margin-left: 1100px;
+    margin-top: 68px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.089);
+}
+
+body{
+    background-color: rgba(255, 255, 236, 1);
+}
+
+.blok2{
+    margin-top: 155px;
+    margin-left: 600px;
+    display: inline-block;
+    height: 300px;
+    width: 900px;
+    background-color: rgb(190, 143, 235);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 4px 5px 8px;
+    margin-bottom: 150px;
+}
+
+.blok2 h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 23px;
+
+}
+
+.blok2 p{
+    margin-left: 50px;
+    font-weight: 100;
+    font-size: 23px;
+}
+    
+.knopka{
+    background: linear-gradient(100.97deg, #b642ff -30.76%, #d956cc 131.66%);
+    box-shadow: 2px 5px 8px rgba(56, 136, 255, 0.38);
+    border-radius: 45px;
+    height: 50px;
+    width: 300px;
+    margin-left: 267px;
+    margin-top: 51px ;
+    padding-top: 11px;
+    padding-left:80px ;
+
+
+}
+
+.knopka a{
+    color: beige;
+    font-weight: 100;
+    font-size: 23px;
+}
+.blok3{
+   background-color: black;
+   height: 300px;
+   padding: 0.1px;
+   
+}
+
+.blok3 h2{
+    color: rgb(255, 255, 255);
+    margin-left: 145px;
+    margin-top: 32px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.blok3 p{
+    color: rgb(255, 255, 255);
+    margin-left: 145px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.blok3 h3{
+    color: rgb(255, 255, 255);
+    margin-left: 1371px;
+    margin-top: -231px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* Адаптивність */
+@media screen and(width<=400px) {
+
+    .header{
+        height: 60px;
+    }
+    .header .logo{
+        height: 60px;
+        width: 75px;
+        border-radius: 0px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        font-weight: 800;
+        font-size: 40px;
+        margin-left:  9px;
+        margin-top: 18px;
+    }
+        
+    .menu div{
+        background-color: black;
+        color: azure;
+        width: 67px;
+        height: 17px;
+        padding: 0px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+   .menu-item1{
+    margin-left: 90px;
+   }
+   .menu-item2{
+    margin-left: 167px;
+
+   }
+   .menu-item3{
+    margin-left: 100px;
+   }
+   .menu-item4{
+
+   }
+       
+     
+}
+
+  
